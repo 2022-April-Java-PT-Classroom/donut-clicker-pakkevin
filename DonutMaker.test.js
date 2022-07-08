@@ -104,16 +104,13 @@ describe("Click Multiplier", () => {
     });
 });
 
-// Adds a donut to the Donut Count for every button click
-// Returns the Donut Count
-// Purchases Auto Clickers with donuts
-// Checks whether you have enough donuts to purchase an Auto Clicker
-// Increases the count of Auto Clickers with each purchase of an Auto Clicker
-// Increases Auto Clicker cost with each purchase of an Auto Clicker
-// Activates the Auto Clicker by applying clicks every second based on the Auto Clicker count
-// Purchases Donut Multipliers with donuts
-// Checks whether you have enough donuts to purchase a Donut Multiplier
-// Increases Donut Multiplier cost with each purchase of a Donut Multiplier
-// Increases the count of Donut Multipliers with each purchase of an Donut Multiplier
-// Calculates the number of donuts earned with each click based on the count of Donut Multipliers
-// Resets the game state. This action should reset the game to zero donuts, zero Auto Clickers, and zero Donut Multipliers.
+// Game Function
+describe("Game Features", () => {
+    test("should reset all game stats and upgrades to 0", () => {
+        const underTest = new DonutMaker(12345, 15, 12);
+        underTest.resetDonutGame();
+        expect(underTest.ctDonuts).toEqual(0);
+        expect(underTest.ctAutoClickers).toEqual(0);
+        expect(underTest.ctClickMultipliers).toEqual(0);
+    });
+})

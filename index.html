@@ -1,13 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Donut Maker</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <button type="button" class="dropMenu">About</button>
+      <div class="content">
+        <p>
+          Fred the Baker Baking Company began in the summer of 2022 in the city
+          of brotherly love, Philadelphia. This historic site is where a baker
+          and an engineer, both shared the name Fred and a passion for DONUTS.
+          The two Freds crossed paths and have combined their skills to deliver
+          the best donuts and at a production rate unlike any other in the field.
+          Trust in Fred, as we always deliver!
+
+        </p>
+
+        <p>
+          Fred's is not only a place of tasty donuts, but it's a worthy investment
+          that only grows. In Fred & Fred we trust.
+        </p>
+
+        <p>
+          ...definitely not powered by brainwashing visitors.
+        </p>
+      </div>
+
+
+      <button type="button" class="dropMenu">Inspiration</button>
+      <div class="content">
+        <p>
+          The inspiration for Donuk Clicker:
+          <a href="https://orteil.dashnet.org/cookieclicker/" target="cookieClicker">Cookie ClickerTM</a>
+        </p>
+
+        <p>
+          Cookie Clicker launched as a game on 2013-08-08 by DashNet, a team of two (Orteil & Opti). The
+          game feeds the hunger for achievement with great depth and visual stimulation. Visit
+          <a href="https://https://dashnet.org/">DashNet Homepage</a>
+          for more details and games.
+        </p>
+      </div>
+
+      <button type="button" class="dropMenu">About</button>
+      <div class="content">
+        <p>Donut Maker Developer: Kevin Pak</p>
+        <ul>
+          <li>
+            <a href="https://github.com/pakkevin" target="github">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/pak-kevin/" target="linkedin">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Donut Clicker</h1>
+
+
+  </header>
+
   <body>
+
+    <img src="images/01_donut.png" name="bt-donut" alt="jsDonutButton" class="btDonut">
+
+    <h4><span class="ct-donut">0</span> Donuts</h4>
+
+    <div class="upgrades">
+
+      <div class="click-multiplier-upgrade">
+        <h3 class="price"># of Multipliers:</h3>
+        <h2><span id="click-multiplier">0</span></h2>
+        <h3 class="price">Click Multiplier Price</h3>
+        <h2><span id="click-multiplier-price">10</span> Donuts</h2>
+        <button id="purchase-click-multiplier">Purchase Click Multiplier</button>
+      </div>
+
+      <div class="auto-clicker-upgrade">
+        <h3 class="price"># of Clickers:</h3>
+        <h2><span id="auto-clickers-total">0</span></h2>
+        <h3 class="price">Auto Clicker Cost</h3>
+        <h2><span id="auto-clicker-price">100</span> Donuts</h2>
+        <button id="purchase-auto-clicker">Upgrade Auto Clicker</button>
+      </div>
+
+    </div>
+
+    <button id="reset-game-button">Reset</button>
+    <h5>a fred & fred company</h5>
+    <!-- </body>
+
     <div class="container"></div>
     <script src="./index.js"></script>
-  </body>
+  </body> -->
+
 </html>
