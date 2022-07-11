@@ -1,0 +1,224 @@
+* {
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FEF9EF;
+  /* background-image: url("../images/sprinkles.png"); */
+}
+
+h1 {
+  color: #FE6D73;
+  text-shadow: 3px 2px 5px rgb(47, 16, 124);
+  font-size: xxx-large;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  color: rgb(255, 162, 177);
+  text-shadow: 2px 2px 2px rgb(110, 138, 251);
+  text-align: center;
+  font-size: 22pt;
+  margin-bottom: 2px;
+  margin-top: 1px;
+}
+
+h3 {
+  color: #264653;
+  text-shadow: 2px 2px 5px rgb(59, 53, 255);
+  text-align: center;
+  margin-top: 1px;
+}
+
+h4 {
+  color: #E67F0D;
+  text-shadow: 2px 2px 2px #264653;
+  text-align: center;
+  font-size: 30pt;
+  margin-bottom: 4px;
+  margin-top: 4px;
+
+}
+
+h5 {
+  color: #264653;
+  text-shadow: 2px 2px 5px rgb(99, 143, 243);
+  text-align: center;
+  margin-top: 1px;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #f06994;
+  width: 100%;
+  position: fixed;
+}
+
+.dropMenu {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  background-color: #264653;
+  color: #E9C46A;
+  cursor: pointer;
+  justify-content: left;
+  align-items: left;
+  padding: 12px;
+  width: 20%;
+
+}
+
+.active,
+.dropMenu:hover {
+  background-color: #264653;
+  color: #E67F0D;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.content {
+  color: #E67F0D;
+  display: none;
+  padding: 0 12.75px 0px 12.75px;
+  border: line-style #E9190F;
+  overflow: hidden;
+  background-color: #264653;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.btDonut {
+  display: flex;
+  width: 25%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.btDonut:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btDonut:active {
+  transform: scale(1.1);
+}
+
+
+.upgrades {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.price {
+  color: #E67F0D;
+  text-shadow: 2px 2px 5px rgb(215, 209, 209);
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+#purchase-auto-clicker {
+  background-color: #264653;
+  border: none;
+  color: #FF0F80;
+  font-weight: bold;
+  font-size: medium;
+  padding: 15px;
+}
+
+#purchase-auto-clicker:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#purchase-auto-clicker:active {
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+#purchase-auto-clicker:focus {
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+#purchase-click-multiplier {
+  background-color: #264653;
+  border: none;
+  color: #FF0F80;
+  font-weight: bold;
+  font-size: medium;
+  padding: 15px;
+  margin-left: 1px;
+}
+
+#purchase-click-multiplier:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#purchase-click-multiplier:active {
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+#purchase-click-multiplier:focus {
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+#reset-game-button {
+  display: flex;
+  width: 7%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
+  min-width: 30px;
+  height: 37px;
+  background-color: #264653;
+  border: none;
+  color: #2A9D8F;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#reset-game-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#reset-game-button:active {
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+#reset-game-button:focus {
+  transform: scale(1.1);
+  border: none;
+  outline: none;
+}
